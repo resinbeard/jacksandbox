@@ -1,2 +1,2 @@
 all:
-	gcc -o sandbox sandbox.c rtqueue.c -ljack -lpthread
+	gcc -o jackdiff jackdiff.c rtqueue.c -ljack -lpthread -lm
